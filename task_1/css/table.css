@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300); 
+
+.tab{
+    padding: 20px;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+table{
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 20;
+    border-collapse: collapse;
+    width: 75%;
+}
+table th {
+    padding:10px;
+}
+table td{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+.title{
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding-left: 30px;
+    border-radius: 45px;
+}
+a.floating-button{
+    background: #B0C4DE;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  a.floating-button:hover{
+    background: #BA55D3;
+    box-shadow: 0 15px 20px rgba(102, 51, 153, .4);
+  }
